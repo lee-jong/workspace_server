@@ -1,0 +1,8 @@
+create table kp_user (
+   id varchar(15) PRIMARY KEY,
+   name varchar(10), 
+   password varchar(16),
+   connection_date varchar(30),
+   level varchar(1),
+   token varchar(300)
+)
